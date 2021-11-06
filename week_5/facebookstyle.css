@@ -1,0 +1,187 @@
+/*general settings*/
+*{
+    box-sizing: content-box;
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;   
+}
+
+/*Design*/
+
+.typearea{
+    border-radius: 4px;
+    border-color: #dddfe2;
+    width: 20vw;
+    height: 3vh;
+    margin-top: 10px;
+    padding: 6px 0;
+    font-size: larger;
+}
+
+#loginbutton{
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 0;
+    width:15vw;
+    height: 3vh;
+    margin-top: 10px; 
+    cursor: pointer; 
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#pass{
+    color:#1778F2 ;
+    margin-top: 20px;
+}
+
+#newaccountbutton{
+    background-color: #42b72a;;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 0;
+    width: 15vw;
+    height: 3vh;
+    margin-top: 10px;
+    cursor: pointer; 
+}
+
+strong,li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: #8A8D91;
+    text-decoration: underline;
+}
+
+section h1{
+    font-size:4vw;
+    color:#1778F2;
+}
+
+footer{
+    background-color: #ffffff;
+}
+
+/*typology*/
+
+footer,h1,p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p#explain{
+    font-size: 28px;
+}
+
+/*layout*/
+
+#mainscreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+    background-color: #c9c9c95d;
+}
+
+main #explainside{
+    width: 50vw;
+    height: 50vh;
+    margin: 200px;
+}
+
+#infoarea{
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 40vh;
+    background-color:#ffffff;
+    margin: 100px 200px 0px 200px;
+    border: none;
+    border-radius: 8px;
+}
+
+#typarea{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#formside, #infoarea{
+    display: flex;
+    flex-direction: column;
+}
+
+section#formside a{
+    text-align: center;
+}
+
+#e-mail-input-area{
+    margin-top: 10px;
+}
+
+
+#strong{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 2vh;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    opacity: 0.5;
+    font-size:small;
+}
+
+footer ul{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px;
+    list-style: none;
+}
+
+.languageline, .linkarea1, .linkarea2, .linkarea3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 5px;
+    width: 70vw;
+}
+
+.linkarea3{
+    width: 40vw;
+}
+
+form #hr1{
+    width: 20vw;
+    height: 0;
+}
+
+footer hr{
+    width: 80vw;
+    height: 0;
+}
+
+
+
+

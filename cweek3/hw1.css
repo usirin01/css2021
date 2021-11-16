@@ -1,0 +1,119 @@
+body{
+    padding:2%;
+    margin:2%;
+}
+
+header{
+    background: url("./image/flywheel.jpg");
+    background-size:cover;
+    background-color: rgb(128,128,128);
+    padding: 1%;
+}
+
+h1{
+    color:rgb(220,220,165);
+    text-align: center;
+    font-size:x-large;
+    padding: 100px;
+}
+
+nav{
+    display: flex;
+}
+nav a{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius:10px;
+    text-decoration: none;
+    color:#f9f9f9;
+    background-color:rgb(60,179,113);
+}
+
+h2{
+    text-transform: uppercase;
+    color:rgb(0,0,255);
+  
+}
+
+main{
+    display:flex;
+}
+
+.left{
+    background-color:#249637;
+    width: 600px;
+    }
+
+.left a img{
+    margin:50px;
+    border:3px, solid, tomato;
+    width:250px;
+    height: 200px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: inline-block;
+    background-color:#72cffa;
+}
+
+/*Table Styling*/
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight:bolder;
+    width: 45vw;
+    line-height: 200%;
+    margin: 25vh;
+
+}
+
+table th{
+    background-image: linear-gradient(#249637, #72cffa);
+    border: 1px solid #249637 ;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-width: thick ;
+    box-shadow: 1px 3px;
+}
+
+table td{
+    border: 2px solid #249637;
+    background-color: rgb(220,220,165);
+    font-size:medium;
+    color: rgb(0,0,255);
+    padding: 1%;
+    text-shadow: 1px 2px #249637;
+}
+
+td:first-child{
+    text-align:left;
+}
+
+td:nth-child(even){
+    text-align: center;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+table tr{
+    opacity: 0.8;
+    visibility:visible;
+}
+
+/* mouse over table row*/
+
+table tr:hover{
+    opacity: 1;
+}
+
+/*select anything*/
+
+::selection {
+    color:#249637;
+    background: rgb(194, 194, 15);
+}
